@@ -26,6 +26,11 @@ module.exports = {
     hardhat: {
       // specific for hardhat
       chainId: 1337
+    },
+    ropsten: {
+      // endpoint provided by the new project in Infura
+      url: "https://ropsten.infura.io/v3/dfc96b14fe7b4a829689f99c148917fd",
+      accounts: [`0x${process.env.ACCOUNT_KEY}`]
     }
   }
 };
